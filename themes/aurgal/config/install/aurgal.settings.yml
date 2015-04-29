@@ -1,0 +1,12 @@
+features:
+   comment_user_picture:      true
+   comment_user_verification: true
+   favicon:                   true
+   logo:                      true
+   name:                      true
+   node_user_picture:         true
+   slogan:                    true
+theme_color_palette:          orange
+aurgal_setfonts:              true
+aurgal_page_style:            default
+

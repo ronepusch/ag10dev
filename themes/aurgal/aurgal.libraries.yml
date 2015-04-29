@@ -1,0 +1,32 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/baseGratis/color-palettes.css: {} 
+      css/baseGratis/normalize.css: {} 
+      css/baseGratis/hacks.css: {} 
+      css/aurgal.css: {}
+aurgal-corescripts:
+  version: 1.x
+  js:
+    js/site.js: {}
+    js/slideshow.js: {} 
+    js/gallery.js: {}
+    js/carousel.js: {}
+    js/aurgal.js: {}
+    js/includes/js/jquery.smooth-scroll.js: {}
+    js/includes/jssor/js/jssor.core.js: {}
+    js/includes/jssor/js/jssor.utils.js: {}
+    js/includes/jssor/js/jssor.slider.js: {}
+    js/includes/slick/slick/slick.js: {}
+    js/includes/bootstrap/js/bootstrap.js: {}
+    
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/matchmedia
+    - core/drupal.progress
+    - core/jquery.intrinsic

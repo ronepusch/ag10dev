@@ -1,0 +1,2 @@
+!function(s,e){"use strict";e.behaviors.aurgalCarousel={attach:function(e,o){s(document).ready(function(){s(".carousel-responsive").length&&s(".carousel-responsive").slick({dots:!1,infinite:!0,speed:300,slidesToShow:4,slidesToScroll:4,responsive:[{breakpoint:992,settings:{slidesToShow:3,slidesToScroll:3,infinite:!0,dots:!0}},{breakpoint:768,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]})})}}}(jQuery,Drupal);
+//# sourceMappingURL=maps/carousel.js.map

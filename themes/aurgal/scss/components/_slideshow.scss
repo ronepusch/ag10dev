@@ -1,0 +1,76 @@
+@import "_include";
+
+#slideshow_container { background-color: #fff;            
+	                   @extend .border_radius;  
+	                   position:         relative;   
+	                   @extend .box_shadow;
+		               overflow:         hidden;
+		               .views-field { margin-bottom:  0;
+			                          a { color:        blue;}} 
+                       .views-field-field-slideshow{ img{ @extend .border_radius;	}} 
+
+                       .views-field-title { background-color:                   rgba(0, 0, 0, 0.2);
+			                                width:                              100%;
+			                                position:                           absolute;
+			                                bottom:                             0;
+			                                z-index:                            5;
+			                                left:                               0;
+			                                border-bottom-right-radius:         5px;
+			                                border-bottom-left-radius:          5px;
+			                                -webkit-border-bottom-right-radius: 5px;
+			                                -webkit-border-bottom-left-radius:  5px;
+			                               /*    @extend .font_oswald;                             */
+			                                font-size:                          4em;
+			                                color:                              red; 
+			                                .field-content { padding:           15px 20px;
+			                                                 display:           block;   	}}
+
+			           .jssorb05           { left:                  auto   !important;
+			                                 right:                 15px   !important;
+			                                 text-align:            right;
+			                                 bottom:                19px   !important;
+			                                 width:                 auto   !important;
+			                                 div{ position:         static !important;
+				                                  left:             auto   !important;
+			                                      margin:           0 0 0 6px;
+			                                      display:          inline-block;
+				                                  background:       #000;
+				                                  border:           2px solid #777;
+				                                  border-radius:    50%;
+				                                  -webkit-border-radius: 50%;
+				                                  width:            13px !important;
+			                                      height:           13px !important; }
+		                     	             .av{ border-color:     $white;
+				                                  background-color: $red;   		 }}
+		               .jssora12l, 
+		               .jssora12r          { display: none;	} 
+					   
+	            	   &:hover, 
+	            	   &:focus             { .jssora12l, 
+					                         .jssora12r { display: block;}} }  
+.jssorb05 .av       { background-position: -67px -7px;  }
+
+.jssorb05 .dn, 
+.jssorb05 .dn:hover { background-position: -97px -7px;  }
+
+.jssora12l, 
+.jssora12r, 
+.jssora12ldn,
+.jssora12rdn        { position:   absolute; 
+                      cursor:     pointer;
+                      display:    block;
+                      background: url(../js/jssor/img/a12.png) no-repeat;
+                      overflow:   hidden;                }
+
+.jssora12l          { background-position: -16px -37px;  }
+
+.jssora12r          { background-position: -75px -37px;  }
+
+.jssora12l:hover    { background-position: -136px -37px; } 
+
+.jssora12r:hover    { background-position: -195px -37px; }
+
+.jssora12ldn        { background-position: -256px -37px; }
+
+.jssora12rdn        { background-position: -315px -37px; }
+											 
